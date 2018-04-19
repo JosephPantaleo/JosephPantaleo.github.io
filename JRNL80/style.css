@@ -1,0 +1,36 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+
+body {
+  background-color: white;
+  font-family: "Times New Roman", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: auto;
+  max-width: 400px;
+  color: #444;
+}
+
+h1 {
+  font-family: "Righteous", serif;
+  font-size: 44px;
+  color: green;
+}
+
+h3 {
+  font-family: "Permanent Marker", serif;
+  color: green;
+}
+
+ul {
+  font-family: "Kalam", serif;
+}
+
+h2 {
+  font-family: "Aldrich", serif;
+}
