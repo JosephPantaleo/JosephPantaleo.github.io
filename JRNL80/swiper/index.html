@@ -11,15 +11,17 @@
     <!-- Demo styles -->
     <style>
       @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+      @import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
+      @import url('https://fonts.googleapis.com/css?family=Exo');
       html, body {
         position: relative;
         height: 100%;
       }
       body {
-        background: #eee;
+        background color: #a1c1ff;
         font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
         font-size: 14px;
-        color:#000;
+        color:#000000;
         margin: 0;
         padding: 0;
       }
@@ -27,7 +29,25 @@
         width:100%;
       }
       h1{
-        font-family: Josefin Sans;
+        font-family: Cormorant Unicase;
+        font-size: 40px;
+        color: #ffffff;
+        -webkit-text-stroke-width: .4px;
+        -webkit-text-stroke-color: #000000;
+        background-color: white;
+      }
+      h2{font-family: Cormorant Unicase;
+        font-size: 20px;
+        color: #ffffff;
+        -webkit-text-stroke-width: .2px;
+        -webkit-text-stroke-color: #000000;
+        background-color: white;}
+      p{
+        font-family: Exo;
+      }
+      p1{
+        font-size: 15px;
+        font-family: Exo;
       }
       .swiper-container {
         width: 100%;
@@ -46,9 +66,8 @@
         transform: translate(-50%, -50%);
         padding: 20px;
         width:80%;
-        color: #0303ff;
       }
-      .background{
+      .background {
         position: absolute;
         left: 0;
         top: 0;
@@ -56,8 +75,8 @@
         height: 100%;
         -webkit-background-size: cover;
         background-size: cover;
-        background-postion: center;
-        }
+        background-position: center;
+      }
       .video-container {
         position:relative;
         padding-bottom:56.25%;
@@ -91,17 +110,76 @@
   <body>
     <!-- Swiper -->
     <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><center><h1>Belmont Hosts Spring Craft Beer Festival</h1></center></div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
-        <div class="swiper-slide">Slide 10</div>
+      <div class="swiper-wrapper">        
+        <div class="swiper-slide">
+          <div class="background" style="background-image:url('https://josephpantaleo.files.wordpress.com/2018/05/img_0139-jpg.jpeg');">
+          </div>
+          <div class="center">
+          <h1>Belmont Hosts Spring Craft Beer Festival</h1>
+            <h2>by Joseph Pantaleo and Victoria Conway</h2>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="center">
+            <img src="https://josephpantaleo.files.wordpress.com/2018/05/img_8961.jpeg">
+          <p>Local Long Islanders particpate in a beer sampling, featuring over 100 types of beer.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="center">
+            <div class="video-container">
+            <iframe width="100%" height=auto src="https://www.youtube.com/embed/l84AIDdxCFQ?autoplay=1" frameborder="0" allowfullscreen></iframe> 
+            </div>
+          </div>  
+        </div>
+        <div class="swiper-slide">
+          <div class="center">
+            <img src="https://josephpantaleo.files.wordpress.com/2018/05/img_0091-jpg-1.jpeg">
+            <p1>In their 12th annual spring festival, event-goers taste-tested beer from both new and award-winning breweries from Long Island, as well as craft breweries from across the country.</p1>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="center">
+            <img src="https://josephpantaleo.files.wordpress.com/2018/05/img_8970.jpeg">
+            <p>Those who paid for VIP Admission were given a 5oz tasting glass and an extra hour to enjoy the festival before the General Admission ticketholders entered at 1:30pm.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="center">
+            <img src="">
+            <p1></p1>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="center">
+            <img src="https://josephpantaleo.files.wordpress.com/2018/05/img_0093-jpg.jpeg">
+            <p>The beer festival also took place during the opening weekend at Belmont Raceway's 150th season.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="center">
+            <div class="video-container">
+            <iframe width="100%" height=auto src="https://www.youtube.com/embed/D9rE5QwYuR4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="center">
+            <img src="https://josephpantaleo.files.wordpress.com/2018/05/img_0098-jpg.jpeg">
+            <p>Thousands of other showed up to Belmont that weekend for the world-class horse-racing and gambling experience.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="center">
+            <img src="https://josephpantaleo.files.wordpress.com/2018/05/img_0121-jpg.jpeg">
+            <p>Belmont Raceway is looking forward to another great season, hosting the highly-anticiatped third-leg of the triple crown on June 9th.</p>
+          </div>
+        </div> 
+        <div class="swiper-slide">
+          <div class="center">
+            <img src="https://josephpantaleo.files.wordpress.com/2018/05/img_1354.png">
+          </div>
+        </div>
       </div>
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
